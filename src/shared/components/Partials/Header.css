@@ -1,0 +1,114 @@
+.navBar
+{
+    background-color: var(--bg-secondary-color);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+}
+.navBarContainer
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+}
+.logo 
+{
+    display: flex;
+}
+.logo img
+{
+    border-radius: 3rem;
+    cursor: pointer;
+}
+.logo h1 
+{
+    margin-top: 14px;
+    font-family: var(--ff-logo-font-family);
+    color: var(--cl-primary-white-color);
+    font-size: var(--fs-large);
+}
+.logo h1 span 
+{
+    color: var(--bg-primary-color);
+}
+/*------Link icon style-----*/
+.link-icon .link i 
+{
+    font-size: var(--fs-x-large);
+}
+.link-icon .link i h3 
+{
+    font-size: var(--fs-small);
+    margin-top: 6px;
+}
+/*------Social media icon style-----*/
+
+.social-media-icon .link i h3
+{
+    margin-left: -20px;
+    font-size: var(--fs-small);
+}
+/*--------All Header Link Social and Icon link--------*/
+.link 
+{
+    color: var(--cl-secondary-white-color);
+    font-size: var(--fs-medium);
+    text-decoration: none;
+}
+.link i 
+{
+    font-size: var(--fs-normal);
+    padding: 8px 20px;   
+}
+.link i h3
+{
+    display: none;
+    font-family: var(--ff-normal-font-family);
+    font-size: var(--fs-small);
+    position: absolute;
+    font-weight: 100;
+}
+.link i:hover h3
+{
+    display: block;
+}
+.link i:hover
+{
+    color: var(--bg-primary-color);
+    transition: 0.5s all ease;
+}
+/*------------Search Bar------------*/
+form
+{
+    background-color: var(--cl-primary-white-color);
+    padding: 6px;
+    border-radius: 10px;
+   
+}
+input, button 
+{
+    padding: 6px;
+}
+input 
+{
+    border: none;
+    outline: none;
+    width: 260px;
+}
+button 
+{
+    background-color: var(--cl-primary-white-color);
+    cursor: pointer;
+    border: none;
+}
+@media (max-width: 1050px){
+.navBar
+{
+    width: calc(100% - 270px);
+    left: 270px;
+}
+}

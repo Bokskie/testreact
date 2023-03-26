@@ -1,0 +1,8 @@
+.MenClothing
+{
+    width: calc(100% - 230px);
+    left: 230px;
+    position: relative;
+    top: 5rem;
+    padding-bottom: 20px;
+}
