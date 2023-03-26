@@ -2,10 +2,10 @@
   "name": "bokskieclothing",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://bokskie.github.io/testreact",
+  "homepage": "http://Bokskie.github.io/testreact",
   "type": "module",
   "scripts": {
-    "predebloy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
